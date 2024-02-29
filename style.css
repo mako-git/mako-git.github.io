@@ -1,0 +1,133 @@
+body {
+	text-align: left;
+	font-family: Helvetica,sans-serif;
+}
+
+li {
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+
+td {
+	vertical-align: top;
+	border-top-color: gray;
+	border-top-style: solid;
+	border-top-width: 0.0625rem;
+	padding-top:0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Times,serif;
+	font-weight: 600;
+}
+
+a {
+	color: rgb(0,0,100);
+	text-decoration: none;
+}
+
+.navigation {
+	border-top-color: white;
+	border-top-style: solid;
+	border-top-width: 0.0625rem;
+	border-bottom-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 0.0625rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 100%;
+	color: white;
+}
+
+.nav-item {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 33.3333%;
+	border-bottom: none;
+	box-sizing: border-box;
+	list-style-position: outside;
+	list-style-image: none;
+	list-style-type: disclosure-closed;
+	margin-bottom: 0rem;
+	float: left;
+	min-width: 300px;
+}
+
+.nav-item-open{
+	list-style-type: disclosure-open;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+}
+
+.container.content {
+	padding-top: 1.5rem;
+	max-width: 990px;
+	background-color: rgb(240,240,240);
+}
+
+.container.navigation {
+	max-width: 990px;
+	background-color: rgb(00,00,100);
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 0px;
+	margin-left: 0px;
+	box-sizing: border-box;
+}
+
+.col-12 .col-md-8 .col-md-4 {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px
+}
+
+.col-12 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 100%;
+	max-width: 100%;
+}
+
+.col-md-8 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 66.6667%;
+	max-width: 66.6667%;
+}
+
+.col-md-4 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 33.3333%;
+	max-width: 33.3333%;
+}
+
+.img-fluid {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border-style: none;
+	box-sizing: border-box;
+	text-align: center;
+}
